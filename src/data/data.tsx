@@ -36,8 +36,8 @@ import React from 'react';
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Goutam Verma Portfolio',
+  description: "Goutam Verma Portfolio!",
 };
 
 /**
@@ -105,19 +105,7 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Hindi',
-        level: 10,
-      },
-    ],
-  },
+  
   {
     name: 'Programming Languages',
     skills: [
@@ -160,6 +148,19 @@ export const skills: SkillGroup[] = [
       },
     ],
   },  
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Hindi',
+        level: 10,
+      },
+    ],
+  },
 ];
 
 /**
@@ -212,7 +213,7 @@ export const education: TimelineItem[] = [
     date: 'August 2019 - April 2024',
     location: 'Indore, India',
     title: 'Masters in Information Technology',
-    content: <p>Relevant Coursework: Computer Science, Algorithms Analysis, System Design, Data Structures, Networking(TCP/UDP), Database. </p>,
+    content: <p>Relevant Coursework: <br></br>Computer Science, Algorithms Analysis, System Design, Data Structures, Networking(TCP/UDP), Database. </p>,
   },
   
 ];
@@ -223,7 +224,7 @@ export const experience: TimelineItem[] = [
     location: 'Open Source Intern',
     title: 'Major League Hacking',
     content: (
-      <p>Selected from a pool of 10,000 global applicants to be an open-source fellow for the Winter’22 batch.
+      <p align='justify'>Selected from a pool of 10,000 global applicants to be an open-source fellow for the Winter’22 batch.
       Collaborated on large-scale open-source web app projects that have thousands of daily users worldwide.
      </p>),
   },
@@ -232,7 +233,7 @@ export const experience: TimelineItem[] = [
     location: 'Software Engineer Intern',
     title: 'Google Summer of Code',
     content: (
-      <p>Developed a robust android application. which helps users to track satellites and stations with the help of REST APIs
+      <p align='justify'>Developed a robust android application. which helps users to track satellites and stations with the help of REST APIs
 and visualize their live locations on distributed systems(Unix) via SSH(secure shell) and KML commands.
 Designed and implemented architecture of functions to retrieve data from REST API. Increased the refresh velocity of
 retry trials by 25X and the potential to save 2x of the cost of computing resources(RAM,Storage,Internet) used.
@@ -247,7 +248,7 @@ increase scalability or efficiency.</p>
     location: 'Software Engineer Intern',
     title: 'Summer of Bitcoin',
     content: (
-      <p>Worked with one of the largest lighting networks in the world - Eclair. Implemented the monitoring tool and alerts
+      <p align='justify'>Worked with one of the largest lighting networks in the world - Eclair. Implemented the monitoring tool and alerts
       manager for node users. which increases application security and helps to track activities on node. Implemented the exporter to export time series data for Grafana and prevent users from sharing statistics with third
       parties.Collaborate with eclair developers and lead members using version control systems such as Git to organize modifications
       and new solutions, assign tasks and maintain a collaborative environment.
@@ -260,7 +261,7 @@ increase scalability or efficiency.</p>
     location: 'Technical Writer',
     title: 'GeeksforGeeks',
     content: (
-      <p >Authored 12+ articles and enhanced published articles.Presented articles on core concepts of the Java programming language, network infrastructure and operating System. By writing papers, I was able to help 10K+ students in understanding the core concepts of Java and networking.
+      <p align='justify'>Authored 12+ articles and enhanced published articles.Presented articles on core concepts of the Java programming language, network infrastructure and operating System. By writing papers, I was able to help 10K+ students in understanding the core concepts of Java and networking.
       </p>
     ),
   },
@@ -269,7 +270,7 @@ increase scalability or efficiency.</p>
     location: 'Software Engineer Intern',
     title: 'Google Summer of Code',
     content: (
-      <p> Developed an android application(mobile) which is capable of mimicking the functionality of Google Earth Studio(an
+      <p align='justify'> Developed an android application(mobile) which is capable of mimicking the functionality of Google Earth Studio(an
         animation studio) and export animation in .esp format. Implement a feature that drafts an animation in spiral, orbit, zoom to view around the point of interest. Innovate a record button to capture the current view of the google earth and prevent users from searching for accurate
         coordinate of location which increases the usability.</p>
     ),
